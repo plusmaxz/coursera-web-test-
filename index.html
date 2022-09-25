@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment solution for module 2</title>
+<style>
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}  
+
+h1 {
+  text-align: center;
+}
+
+div {
+  border: 2px solid black;
+  margin: 10px;
+  background-color: #999;
+  float: left;
+}
+
+#chicken {
+  border: solid black;
+  width: 100px;
+  text-align: center;
+  float: right;
+  background-color: #D59897;
+  font-weight: bolder;
+}
+
+#beef {
+  border: solid black;
+  width: 100px;
+  text-align: center;
+  float: right;
+  background-color: #C14543;
+font-weight: bolder;
+}
+
+#sushi {
+  border: solid black;
+  width: 100px;
+  text-align: center;
+  float: right;
+  background-color: #E5D198;
+font-weight: bolder;
+}
+
+section {
+  clear: right;
+}
+
+/**** large screen ****/
+@media (min-width: 1200px) {
+  .col-lg-4 {
+  float: left;
+  }
+  .col-lg-4 {
+    width: 31%;
+  }
+}
+
+/***** medium devices only ******/
+@media (min-width: 900px) and (max-width: 1199px) {
+ .col-md-6, {
+ }
+ .col-md-6 {
+   width: 46%;
+ }
+ .col-md-1 {
+   width: 94%;
+ }
+}
+
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="col-lg-4 col-md-6">
+  <P id="chicken">Chicken</P>
+  <section>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</section>
+</div>
+<div class="col-lg-4 col-md-6">
+  <P id="beef">Beef</P>
+  <section>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</section>
+</div>
+<div class="col-lg-4 col-md-1">
+  <P id="sushi">Sushi</P>
+  <section>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</section>
+</div>
+
+</body>
+</html>
