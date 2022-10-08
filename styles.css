@@ -16,6 +16,7 @@
   }
   
   #chicken {
+    position: absolute;  
     border: solid black;
     width: 100px;
     text-align: center;
@@ -25,6 +26,7 @@
   }
   
   #beef {
+    position: absolute;
     border: solid black;
     width: 100px;
     text-align: center;
@@ -34,6 +36,7 @@
   }
   
   #sushi {
+    position: absolute;  
     border: solid black;
     width: 100px;
     text-align: center;
